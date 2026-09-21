@@ -387,7 +387,7 @@ export default function VenueSection() {
                         fontFamily:
                           "Georgia, Times New Roman, serif",
                         fontSize:
-                          "clamp(2.6rem, 5vw, 5rem)",
+                          "clamp(1.7rem, 3.0vw, 3.0rem)",
                         fontWeight: 400,
                         lineHeight: 0.95,
                         letterSpacing: "-0.05em",
