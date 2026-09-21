@@ -472,6 +472,43 @@ export default function WeddingAndReceptionSection() {
                 >
                   November 2026
                 </div>
+
+                {/* Wedding Timing */}
+
+                <div
+                  className="mt-7 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4"
+                  style={{
+                    fontFamily:
+                      "Georgia, Times New Roman, serif",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "8px",
+                      letterSpacing:
+                        "0.20em",
+                      textTransform:
+                        "uppercase",
+                      color:
+                        "rgba(255,255,255,0.28)",
+                    }}
+                  >
+                    Timing
+                  </span>
+
+                  <span
+                    style={{
+                      fontSize:
+                        "clamp(1rem, 1.5vw, 1.3rem)",
+                      letterSpacing:
+                        "0.08em",
+                      color:
+                        "rgba(255,255,255,0.78)",
+                    }}
+                  >
+                    6:00 AM – 7:30 AM
+                  </span>
+                </div>
               </div>
 
               {/* Footer */}
@@ -673,7 +710,7 @@ export default function WeddingAndReceptionSection() {
                         "rgba(255,255,255,0.36)",
                     }}
                   >
-                    An evening of celebration
+                    A morning of celebration
                   </p>
                 </div>
 
@@ -728,6 +765,43 @@ export default function WeddingAndReceptionSection() {
                   }}
                 >
                   November 2026
+                </div>
+
+                {/* Reception Timing */}
+
+                <div
+                  className="mt-7 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4"
+                  style={{
+                    fontFamily:
+                      "Georgia, Times New Roman, serif",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "8px",
+                      letterSpacing:
+                        "0.20em",
+                      textTransform:
+                        "uppercase",
+                      color:
+                        "rgba(255,255,255,0.28)",
+                    }}
+                  >
+                    Timing
+                  </span>
+
+                  <span
+                    style={{
+                      fontSize:
+                        "clamp(1rem, 1.5vw, 1.3rem)",
+                      letterSpacing:
+                        "0.08em",
+                      color:
+                        "rgba(255,255,255,0.78)",
+                    }}
+                  >
+                    10:45 AM – 11:45 AM
+                  </span>
                 </div>
               </div>
 
