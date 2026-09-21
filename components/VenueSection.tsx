@@ -33,7 +33,7 @@ export default function VenueSection() {
       number: "01",
       type: "The wedding",
       date: "13 november 2026",
-      location: "Chennai",
+      location: "Mayiliamman Temple, Urappakkam, Chennai",
       description:
         "Where our journey begins, surrounded by the warmth of family, friends, and the light of a new beginning.",
     },
@@ -41,7 +41,7 @@ export default function VenueSection() {
       number: "02",
       type: "The reception",
       date: "22 november 2026",
-      location: "Bodinayakanur",
+      location: "Senaithalaivar Suthanthira Kalyana Mahal, Bodinayakanur",
       description:
         "An evening to gather, celebrate, laugh, and create beautiful memories together.",
     },
@@ -437,9 +437,9 @@ export default function VenueSection() {
 
                     <a
                       href={
-                        venue.location === "Chennai"
-                          ? "https://www.google.com/maps/search/?api=1&query=Chennai"
-                          : "https://www.google.com/maps/search/?api=1&query=Bodinayakanur"
+                        venue.location === "Mayiliamman Temple, Urappakkam, Chennai"
+                          ? "https://www.google.com/maps/place/Arulmigu+Mayili+Amman+Temple/@12.2352739,78.0466193,9z/data=!4m10!1m2!2m1!1smayilliamman+temple+urappakkam!3m6!1s0x3a52f6339a9fde01:0xd7b8770aef18de56!8m2!3d12.8509477!4d80.0822293!15sChttYWxsaWFtbWFuIHRlbXBsZSB1cmFwYWtrYW1aHSIbbWFsbGlhbW1hbiB0ZW1wbGUgdXJhcGFra2FtkgEMaGluZHVfdGVtcGxlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF4WHpWbGRTMVJSUkFC4AEA-gEECAAQDw!16s%2Fg%2F1pycmvt_z!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
+                          : "https://www.google.com/maps/place/Senaithalaivar+Suthanthira+Kalyana+Mahal/@10.0075295,77.3550228,17z/data=!3m1!4b1!4m6!3m5!1s0x3b070daaeaf13633:0x4dcb064632aded41!8m2!3d10.0075295!4d77.3550228!16s%2Fg%2F11rkclsdlc!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
                       }
                       target="_blank"
                       rel="noopener noreferrer"

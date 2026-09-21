@@ -83,6 +83,7 @@ export default function GallerySection() {
 
   return (
     <section
+      id="gallery-section"
       ref={sectionRef}
       className="relative w-full overflow-hidden bg-[#070408] text-white"
     >
